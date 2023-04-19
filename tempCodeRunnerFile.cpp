@@ -2,12 +2,16 @@
 using namespace std;
 
 int main(){
-
-    vector<string> s(8);
-    for (int i = 0; i < 8; i++) cin >> s[i];
-    for (int i = 0; i < 8; i++) for (int j = 0; j < 8; j++){
-        if(s[i][j] == '*'){
-            cout <<  "abcdefgh"[j] << 8 - i << endl;
-        }
+    int n[8];
+    int n[0] = 1;
+    int n[2] = 3;
+    int n[3] = 5;
+    int n[4] = 4;
+    int n[5] = 3;
+    int n[6] = 64;
+    int n[7] = 8;
+    int n[8] = 1;
+    for (int i = 0; i < 9; i++){
+        cout << n << endl;
     }
 }
